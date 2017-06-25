@@ -1,4 +1,4 @@
-@import "bootstrap-sprockes";
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 /* universal */
@@ -63,8 +63,8 @@ p {
   font-weight: bold;
 }
 
-#logo: hover {
+#logo:hover {
   font-family: Georgia;
   color: #ffd770;
-  text-decoration; none
+  text-decoration: none;
 }  
