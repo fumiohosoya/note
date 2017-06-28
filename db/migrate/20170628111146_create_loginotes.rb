@@ -1,6 +1,6 @@
-class CreateNoteLogiccs < ActiveRecord::Migration
+class CreateLoginotes < ActiveRecord::Migration
   def change
-    create_table :note do |t|
+    create_table :loginotes do |t|
       t.references :user, index: true, foreign_key: true
       t.text :content
 
